@@ -2,7 +2,7 @@ getUMLFromCPP
 =============
 
 ###getUMLFromCPP
-<code><pre>
+<pre><code>
 - FileName : string
 - content : string
 - classQueue : queue\<classUML *\>
@@ -14,7 +14,8 @@ getUMLFromCPP
 + matchBracket(char) : int
 + drawUML() : int
 + printUML() : void
-</pre></code>
+</code>
+</pre>
 
 ---
 
