@@ -2,14 +2,11 @@ getUMLFromCPP
 =============
 
 ###getUMLFromCPP
-----------------
 <pre>
 - FileName : string
 - content : string
 - classQueue : queue<classUML *>
-
----
-
+---------------------------------
 + readTestFromFile(): bool
 + delSlashN() : void
 + searchKey(string) : int
@@ -22,16 +19,13 @@ getUMLFromCPP
 ---
 
 ###classUML
----
 <pre>
 - pubVar : queue<string>
 - pubFunc : queue<string>
 - priVar : queue<string>
 - priFunc : queue<string>
 - className : string
-
----
-
+----------------------------
 + printUML() : void
 + pubVar() : void
 + priVar() : void
