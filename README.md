@@ -4,8 +4,8 @@ getUMLFromCPP
 ###getUMLFromCPP
 	- FileName : string
 	- content : string
-	- classQueue : queue\<classUML *\>
----------------------------------
+	- classQueue : queue<classUML *>
+	---------------------------------
 	+ readTestFromFile(): bool
 	+ delSlashN() : void
 	+ searchKey(string) : int
@@ -17,20 +17,19 @@ getUMLFromCPP
 ---
 
 ###classUML
-	- pubVar : queue\<string\>
-	- pubFunc : queue\<string\>
-	- priVar : queue\<string\>
-    - priFunc : queue\<string\>
-- className : string
-----------------------------
-+ printUML() : void
-+ pubVar() : void
-+ priVar() : void
-+ pubFunc() : void
-+ priFunc() : void
+	- pubVar : queue<string>
+	- pubFunc : queue<string>
+	- priVar : queue<string>
+    - priFunc : queue<string>
+	- className : string
+	----------------------------
+	+ printUML() : void
+	+ pubVar() : void
+	+ priVar() : void
+	+ pubFunc() : void
+	+ priFunc() : void
 
-+ addPubVar() : void
-+ addPriVar() : void
-+ addPubFunc() : void
-+ addPriFunc() : void
-</pre>
+	+ addPubVar() : void
+	+ addPriVar() : void
+	+ addPubFunc() : void
+	+ addPriFunc() : void
