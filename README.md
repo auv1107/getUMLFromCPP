@@ -1,6 +1,6 @@
 getUMLFromCPP
 =============
-
+<pre>
 ###getUMLFromCPP
 ----------------
 <pre>
@@ -42,4 +42,5 @@ getUMLFromCPP
 + addPriVar() : void
 + addPubFunc() : void
 + addPriFunc() : void
+</pre>
 </pre>
