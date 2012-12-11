@@ -1,16 +1,15 @@
 getUMLFromCPP
 =============
-<pre>
+
 ###getUMLFromCPP
 ----------------
 <pre>
 - FileName : string
 - content : string
 - classQueue : queue<classUML *>
-</pre>
 
 ---
-<pre>
+
 + readTestFromFile(): bool
 + delSlashN() : void
 + searchKey(string) : int
@@ -30,17 +29,17 @@ getUMLFromCPP
 - priVar : queue<string>
 - priFunc : queue<string>
 - className : string
-</pre>
+
 ---
-<pre>
+
 + printUML() : void
 + pubVar() : void
 + priVar() : void
 + pubFunc() : void
 + priFunc() : void
+
 + addPubVar() : void
 + addPriVar() : void
 + addPubFunc() : void
 + addPriFunc() : void
-</pre>
 </pre>
