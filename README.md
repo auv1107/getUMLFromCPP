@@ -6,11 +6,11 @@ getUMLFromCPP
 	- content : string
 	- classQueue : queue<classUML *>
 	---------------------------------
+	- delSlashN() : void
+	- searchKey(string) : int
+	- searchPunc(char) : int
+	- matchBracket(char) : int
 	+ readTestFromFile(): bool
-	+ delSlashN() : void
-	+ searchKey(string) : int
-	+ searchPunc(char) : int
-	+ matchBracket(char) : int
 	+ drawUML() : int
 	+ printUML() : void
 
