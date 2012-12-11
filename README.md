@@ -6,6 +6,7 @@ getUMLFromCPP
 - FileName : string
 - content : string
 - classQueue : queue<classUML *>
+
 ---
 + readTestFromFile(): bool
 + delSlashN() : void
@@ -25,6 +26,7 @@ getUMLFromCPP
 - priFunc : queue<string>
 - className : string
 ---
+
 + printUML() : void
 + pubVar() : void
 + priVar() : void
